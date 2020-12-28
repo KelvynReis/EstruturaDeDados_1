@@ -1,10 +1,6 @@
-struct SAluno{
-    int matricula;
-    char nome[20];
-};
 
 typedef struct SFila{
-    struct SAluno dado;
+    int dado;
     struct SFila *next;
 } TFila;
 
